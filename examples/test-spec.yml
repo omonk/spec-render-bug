@@ -18,16 +18,16 @@ paths:
           content:
             application/json:
               # RENDERS ALL VALUES IN THE SCHEMA
-              schema:
-                $ref: "#/components/schemas/mainContentEntitySchema"
-              # RENDERS ONLY THE strucutreEntity SCHEMA
+              # Comment this back in to render all of the spec
               # schema:
-              #   type: object
-              #   properties:
-              #     deeperContent:
-              #       $ref: "#/components/schemas/mainContentEntitySchema"
-              #   tags:
-              #     - Update
+              #   $ref: "#/components/schemas/mainContentEntitySchema"
+
+              # RENDERS ONLY THE strucutreEntity SCHEMA, not propertyKey1 + propertyKey2
+              schema:
+                type: object
+                properties:
+                  deeperContent:
+                    $ref: "#/components/schemas/mainContentEntitySchema"
 components:
   schemas:
     mainContentEntitySchema:
