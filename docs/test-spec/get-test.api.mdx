@@ -1,11 +1,11 @@
 ---
 id: get-test
 title: "get-test"
-description: "get-test"
+description: "Endpoint to get [Profile](./page/to/profile)"
 sidebar_label: "get-test"
 hide_title: true
 hide_table_of_contents: true
-api: eJx9VGFP2zAQ/SvRiQ90cmhaCrSREKvabKpAgAZs0kqZ3ORCzBIntS+ILvi/T04KlNItXxLfXd69ey+XCvICFSeRy0kEPtwjuYSagIFCXeRSowa/gq7n2VuEOlSisOXgw8UpMAhzSSjJZnlRpCKswdoP2pZUoMMEM15n0/QiBn9aQaFsUxINtCZVhlQqDCQJWp7isvOx1XWCjuQZAgNaFgi+fU3IezBsC0B3O0CokBNGDicn4mSx4lxlnMCH1XkD21gVFqVQGIE/3cp0e/sZAxKUWqyrl7TT5N+65PMHDAnMjG0osjq9SoFPPCtqsDA+PJofDfruYe+g7/b68cCdd/ihG0Xdnhd6cXjQnwODghOhsmPfTbkbD90vnjuYVX3j7p7465GecVvVvlkPdbpm5/nu84mtHLo/ufvHcwe3t+4vW936tCXcNcfHz29BG9o3x62THXhT4UaKRYnOJEJJIhaonN2bybi1zc616f/hoyZOpQYGKMvMGnMe/AAGw8vLbxffgzEwGAejs8l5/Tgano+Cs7NgvG7KK8L/DX9nxAazNbSMCzlq1qDx+Kr56I292MYAaxuWISX5ausa1xLwob3KalSPqHS9MaVKwYeEqNB+u80Lsddk92xt+7FTf0RCxrkV7IXWCseCNK07ex5s0rlOhHaEdihBJ5dYG5Bryni9vfXKveP87u3qRT/CJ2oXKRfSAtRsq9U804bHjEGSa7LnqppzjTcqNcaGFyWqJfjTGYNHrgSfW/LTmWGQII9Q1QL8xiX4MAxDLOqZeFravh/+OFaHV1m/BtdgzF+sPaEW
+api: eJylVGFP20AM/SuRtQ90Spq2FGgjIVa12YSGAA26SSthuiZOcyy9HHcOogv579MlgXalTJqWL7mzrWf7vbMLILbQ4M1gKiNGCIENmUTFiGfiNAIPFkgOoSawIUIdKi6NCzzwRSQzLsiizFogWbNLlcU8xWCv7Uq2QJcyV9amFtigUMtMaNTgFdDrdMzvvwDDTBAKMjhMypSHVc3unTZgBegwwSUzJ1pJBA+y+R2Gpg2pTIfE61IiRIlqvAGWphcxeLNiK1CTykPKFfqCOK0+46r7uofrBC3Blgj2c1pNiosFlPYOgN5ugFAhI4wsRlaliQ1xppaMwIPmvoVdGnrvc64wMlLuqnR3+sAG4pQarKtnt1X711ka4spgm7rm9kIFPrKlrMDC+PBofjQcOIf9g4HTH8RDZ95lh04U9fqdsBOHB4O5UYIRoTJt386YE4+cjx1nGBSD0tk78TYt/dJpFfvlpqnbK9893X44MZEj5ztzfnWc4c2N88NEt97vMPfK4+OntdGY9svj1sk7WLMwFfw+R+s0QkE85qisvenppLVLzo3u39BRE6Ncgw0o8qUR5tz/BjaMLi+/XHz1J2DDxB+fnZ5Xx/HofOyfnfmTTVFeEP4u+B9CbFW2gbZkXDQPvdb4qp6Rsv5sWCIlWTP0tTwJeOA2469RPaDS1WjkKgUPEiKpPddlkrdrb9vEug/d6rVwEWfVADb5GxwDUpPUbXderZXrhGuLa4sStDKBFdOZpiWrprqarbeXUrHeCv+6ThqGCR/JlSnjwmSu2iwaImZ1A4ENSabJ3ItizjROVVqWxnyfo1qBNwtseGCKs7npehaUNiTIIlQVcz9xBR6MwhBlRQZLc5P31QozBL7o8cm/hrL8DREY5/4=
 sidebar_class_name: "get api-method"
 info_path: docs/test-spec/test
 custom_edit_url: null
@@ -41,7 +41,7 @@ import TabItem from "@theme/TabItem";
 
 
 
-get-test
+Endpoint to get [Profile](./page/to/profile)
 
 <div>
   <div>
@@ -56,7 +56,7 @@ get-test
         <div>
           
           
-          OK
+          Endpoint to get [Profile](./page/to/profile)
           
           
         </div><div>
@@ -96,41 +96,53 @@ get-test
                       style={{"marginLeft":"1rem"}}
                     >
                       <SchemaItem
-                        collapsible={false}
-                        name={"structureEntityKey1"}
-                        required={true}
-                        schemaName={"string"}
-                        qualifierMessage={undefined}
-                        schema={{"description":"The name","type":"string"}}
+                        collapsible={true}
+                        className={"schemaItem"}
                       >
-                        
-                      </SchemaItem><SchemaItem
-                        collapsible={false}
-                        name={"structureEntityKey2"}
-                        required={true}
-                        schemaName={"date"}
-                        qualifierMessage={undefined}
-                        schema={{"description":"The created at date","format":"date","type":"string"}}
-                      >
-                        
-                      </SchemaItem><SchemaItem
-                        collapsible={false}
-                        name={"propertyKey1"}
-                        required={true}
-                        schemaName={"Unique Identifier (UID) (string)"}
-                        qualifierMessage={"**Possible values:** Value must match regular expression `^[a-fA-F0-9]{8}-(?:[a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}$|^@?(?:[A-Za-z0-9\\-_]{4})*(?:[A-Za-z0-9\\-_]{2}==|[A-Za-z0-9-_]{3}=)?$`"}
-                        schema={{"example":"cf67b798-6458-48f9-b1a6-dd240c0fc58b","pattern":"^[a-fA-F0-9]{8}-(?:[a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}$|^@?(?:[A-Za-z0-9\\-_]{4})*(?:[A-Za-z0-9\\-_]{2}==|[A-Za-z0-9-_]{3}=)?$","title":"Unique Identifier (UID)","type":"string"}}
-                      >
-                        
-                      </SchemaItem><SchemaItem
-                        collapsible={false}
-                        name={"propertyKey2"}
-                        required={true}
-                        schemaName={"status (string)"}
-                        qualifierMessage={"**Possible values:** [`NEW`, `APPROVED`, `DECLINED`, `CANCELLED`]"}
-                        schema={{"description":"The status","enum":["NEW","APPROVED","DECLINED","CANCELLED"],"title":"status","type":"string"}}
-                      >
-                        
+                        <details
+                          style={{}}
+                          className={"openapi-markdown__details"}
+                        >
+                          <summary
+                            style={{}}
+                          >
+                            <span
+                              className={"openapi-schema__container"}
+                            >
+                              <strong
+                                className={"openapi-schema__property"}
+                              >
+                                deeperContent
+                              </strong><span
+                                className={"openapi-schema__name"}
+                              >
+                                 object
+                              </span>
+                            </span>
+                          </summary><div
+                            style={{"marginLeft":"1rem"}}
+                          >
+                            <SchemaItem
+                              collapsible={false}
+                              name={"structureEntityKey1"}
+                              required={true}
+                              schemaName={"string"}
+                              qualifierMessage={undefined}
+                              schema={{"description":"The name","type":"string"}}
+                            >
+                              
+                            </SchemaItem><SchemaItem
+                              collapsible={false}
+                              name={"structureEntityKey2"}
+                              required={true}
+                              schemaName={"date"}
+                              qualifierMessage={undefined}
+                              schema={{"description":"The created at date","format":"date","type":"string"}}
+                            >
+                              
+                            </SchemaItem>
+                          </div>
+                        </details>
                       </SchemaItem>
                     </ul>
                   </details>
@@ -139,7 +151,7 @@ get-test
                   value={"Example (from schema)"}
                 >
                   <ResponseSamples
-                    responseExample={"{\n  \"propertyKey1\": \"cf67b798-6458-48f9-b1a6-dd240c0fc58b\",\n  \"propertyKey2\": \"NEW\",\n  \"structureEntityKey1\": \"string\",\n  \"structureEntityKey2\": \"2024-08-01\"\n}"}
+                    responseExample={"{\n  \"deeperContent\": {\n    \"structureEntityKey1\": \"string\",\n    \"structureEntityKey2\": \"2024-08-06\"\n  }\n}"}
                     language={"json"}
                   >
                     

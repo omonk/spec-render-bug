@@ -11,10 +11,13 @@ tags:
 paths:
   /test:
     get:
+      tags:
+        - Update
       operationId: get-test
+      description: "Endpoint to get [Profile](./page/to/profile)"
       responses:
         "200":
-          description: OK
+          description: "Endpoint to get [Profile](./page/to/profile)"
           content:
             application/json:
               # RENDERS ALL VALUES IN THE SCHEMA

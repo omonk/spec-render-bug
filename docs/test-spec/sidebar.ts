@@ -8,7 +8,11 @@ const sidebar: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "UNTAGGED",
+      label: "Update",
+      link: {
+        type: "doc",
+        id: "test-spec/update",
+      },
       items: [
         {
           type: "doc",
